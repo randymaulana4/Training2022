@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        //type data primitif
+        var nama = "randy";
+        var umur = "31";
+        var sudahMenikah = true;
+        var anak = ['anak 1','anak 2'];
+
+        console.log(nama);
+        console.log(umur);
+        console.log(sudahMenikah);
+        console.log(anak);
+
+        // type data objects
+        const person = {
+            first_name:'randy',
+            last_name:'rey'
+        }
+        
+        console.log(typeof person);
+        var anak = ['anak 1','anak 2'];
+        console.log(anak);
+/*----------------------------------------------------------------------------*/
+
+        const functionExample=(name)=>{
+            return 'HELLO WORLD ' + name;
+
+        }
+        console.log(typeof functionExample);
+
+        const greeting = functionExample('randy');
+        console.log(greeting);
+/*----------------------------------------------------------------------------*/
+        // pass value by reference
+        var a = 1;
+        var b = 2;
+        var c = a+b;
+        console.log(c);
+        // end
+
+        const calcu=(angka1,ope,angka2)=>{
+            if(ope == '+'){
+                return angka1+angka2;
+            }else{
+                return undefined;
+            }
+
+        }
+
+        const hasil = calcu(1,'+',2);
+        console.log(hasil);
+
+    </script>
+</body>
+</html>

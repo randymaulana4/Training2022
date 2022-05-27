@@ -1,0 +1,64 @@
+<!DOCTYPE html><!--untuk mengetahui versi php-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Training Web Development Neuron</title>
+    <style>
+        .text-format1{
+            font-weight: bold;
+            font-size: 12px;
+            font-style: bold;
+        }
+        #text-format2{
+            color: red;
+            font-size: 12px;
+        }
+
+        img{
+            border: 1px dotted;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hobi Saya</h1>
+    <img src="images/img1.png" width="100">
+
+    <table border="1">
+        <tr>
+            <th>Nomor</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th colspan="2">Nomor HP</th> <!--untuk menggabungka n column-->
+        </tr>
+
+        <tr>
+            <td rowspan="2">1</td> <!--untuk menggabungkan baris-->
+            <td>Randy Maulana</td>
+            <td>randy@neuronworks.co.id</td>
+            <td>0828373928398</td>
+            <td>028382938928</td>
+        </tr>
+        <tr>
+            <td>holil Maulana</td>
+            <td>holil@neuronworks.co.id</td>
+            <td>0828373928398</td>
+            <td>028382938928</td>
+        </tr>
+    </table>
+
+    <h3>Text Formatting Dengan HTML</h3>
+    <!--p><b>Saya</b> <i>Senang</i> <u>Ngopi</u></p-->
+    <!--p><b><i>Saya Senang Udud</i></b></p-->
+    <p><b>Saya</b> <i>Senang</i> <u>Memandang Akhwat</u></p>
+    <p><b><i>Akhwat Tidak Senang Memandang Saya</i></b></p>
+
+    <p style="font-weight:bold;font-style:italic">Contoh Format dengan Inline CSS</p>
+
+    <p class="text-format1">Contoh Selector Class</p>
+    <p id="text-format2">Contoh Selector id</p>
+
+</body>
+</html>

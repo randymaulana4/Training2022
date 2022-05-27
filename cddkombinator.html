@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container p{
+            color: red;
+        }
+        
+        #container2 h3{
+            color:orange;
+        }
+
+        #container2 > p{
+            color:mediumturquoise;
+        }
+
+        #container2 + p{
+            color:navy;
+        }
+
+        #container3 > p{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h3>training tanggal 21 may</h3>
+        <p>Descendant Selector</p>
+        <p>Descendant Selector 2</p>
+    </div>
+
+    <!--adjecent disabling selector-->
+    <div id="container2">
+            <h3>training tanggal 21 may</h3>
+            <p>disabling selector</p>
+            <p>disabling selector</p>
+    </div>
+    
+    <p>disabling selector</p>
+
+    <!--Child Selector-->
+    <div id="container3">
+            <h3>training tanggal 21 may</h3>
+            <p>Descendant Selector</p>
+            <p>Descendant Selector</p>
+            <b><p>Child Selector</p></b>
+    </div>
+</body>
+</html>
